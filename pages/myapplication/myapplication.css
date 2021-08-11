@@ -1,0 +1,145 @@
+/* page{
+    height:100%;
+} */
+.myapplication {
+	background-color: #F0F0F0;
+	padding-bottom: 1400rpx;
+	height: 100%;
+}
+
+.navigation-bar {
+	background-color: #ffffff;
+}
+
+.navigation-bar .change {
+	padding: 20rpx 35rpx;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 暂无数据样式 */
+.no_data {
+	text-align: center;
+	color: #ccc;
+}
+
+/* 暂无数据样式结束 */
+
+.contre {
+	padding: 25rpx;
+}
+
+.contre .order-number {
+	background-color: #ffffff;
+	padding: 25rpx;
+	border-radius: 20rpx;
+}
+
+.contre .order-number .top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contre .order-number .left {
+	font-size: 12px;
+}
+
+.contre .order-number .right {
+	font-size: 16px;
+	color: #EC6A48;
+}
+
+.top-company text {
+	font-size: 12px;
+	margin-right: 30rpx;
+	color: #ADA9A9;
+}
+
+.top-company .iconfont {
+	color: #69B1FC;
+}
+
+.task {
+	padding: 20rpx 0;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+}
+
+.task .price-red {
+	color: #FF9079;
+}
+
+.site {
+	font-size: 12px;
+	color: #ADA9A9;
+}
+
+.task-narrate {
+	padding: 10rpx 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task-time {
+	font-size: 12px;
+	color: #ADA9A9;
+	padding-top: 10rpx;
+}
+
+.clearing-form .done {
+	border: 1px solid #69B1FC;
+	padding: 10rpx;
+	border-radius: 8px;
+	font-size: 12px;
+	color: #69B1FC;
+
+}
+
+.transverse-line {
+	margin: 20rpx 0;
+	border-top: 1px solid #F1F1F1;
+}
+
+.accomplish {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.accomplish .accomplish-done {
+	padding: 10rpx;
+	border: 1px solid #EC6A48;
+	border-radius: 8px;
+	font-size: 14px;
+	background-color: #EC6A48;
+	color: #ffffff;
+	margin-left: 10rpx;
+}
+
+.audit-detail {
+	display: flex;
+	justify-content: space-between;
+}
+
+.audit-expenses {
+	font-size: 12px;
+
+}
+
+.audit-detail .audit-expenses-price {
+	color: #FF9079;
+	font-size: 14px;
+}
+
+.computational-costs .audit-cause {
+	font-size: 12px;
+}
+
+.computational-costs .audit-cause text {
+	padding-right: 20rpx;
+}
+
+.computational-costs .audit-cause text:nth-child(2) {
+	color: #ADA9A9;
+}

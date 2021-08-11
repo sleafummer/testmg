@@ -1,0 +1,35 @@
+/* pages/aboutus/aboutus.wxss */
+.about-us {
+	width: 100%;
+
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo-image {
+	padding-top: 150rpx;
+}
+
+.text_k {
+	text-indent: 2em;
+}
+
+.logo-image image {
+	width: 240rpx;
+	height: 240rpx;
+}
+
+.logo-image image .image {
+	width: 100%;
+	height: 100%;
+}
+
+.version-number {
+	padding-top: 20rpx;
+}
+
+.description {
+	padding: 50rpx;
+}

@@ -1,0 +1,23 @@
+/* pages/uploadingok/uploadingok.wxss */
+.uploadingok {
+	width: 100%;
+	text-align: center;
+}
+
+.uploadingok .top-picture {
+	padding: 100rpx 0 50rpx 0;
+}
+
+.uploadingok .top-picture .image {
+	width: 200rpx;
+	height: 180rpx;
+}
+
+.button {
+	padding: 40rpx 0;
+}
+
+.button button {
+	color: #ffffff;
+	border-radius: 50rpx;
+}

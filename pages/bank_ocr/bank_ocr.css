@@ -1,0 +1,55 @@
+/* pages/scan/scan.wxss */
+.box {
+	position: relative;
+
+
+}
+
+.scan-img {
+
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.scan {
+	align-self: center;
+	width: 400rpx;
+	height: 300rpx;
+	margin-top: 130rpx;
+}
+
+.wenzi {
+	margin-top: 10px;
+	color: #16697a;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.neiron {
+	margin-top: 80rpx;
+}
+
+.kahao {
+	margin-left: 80rpx;
+	font-size: 14px;
+}
+
+.kahao1 {
+	margin-left: 80rpx;
+	font-size: 14px;
+}
+
+.neiron {
+	display: flex;
+	padding-bottom: 30rpx;
+	border-bottom: 1px solid #ddd;
+}
+
+.anniu {
+	margin-top: 200rpx;
+	background: #4288F2;
+	border-radius: 50px 50px 50px 50px;
+	color: white;
+}

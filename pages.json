@@ -1,0 +1,219 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "申请任务"
+			}
+		},
+		{
+				"path": "pages/taskdetail/taskdetail", 
+				"style": {
+					"navigationStyle": "custom"
+					// "navigationBarTitleText": "任务详情"
+				}
+		},
+		{
+				"path": "pages/test/test",
+				"style": {
+					"navigationStyle": "custom"
+					// "navigationBarTitleText": "测试版"
+				}
+		},
+		{
+				"path": "pages/sign/sign",
+				"style": {
+					"navigationStyle": "custom"
+					// "navigationBarTitleText": "电子签签署"
+				}
+		},
+		{
+				"path": "pages/face/face",
+				"style": {
+					"navigationStyle": "custom"
+					// "navigationBarTitleText": "人脸识别"
+				}
+		},
+		{
+				"path": "pages/out_face/face",
+				"style": {
+					"navigationStyle": "custom"
+					// "navigationBarTitleText": "人脸识别"
+				}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path":"pages/bank_ocr/bank_ocr",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path":"pages/out_bank_ocr/bank_ocr",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "添加银行卡"
+			}
+		},
+		{
+			"path": "pages/myapplication/myapplication",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "我的申请",
+				// "navigationBarBackgroundColor": "#4388F2"
+				}
+		},
+		{
+			"path": "pages/authen/authen",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/outauthen/authen",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/mybill/mybill",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "结算管理",
+				// "navigationBarBackgroundColor": "#63B8FF",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/bank_card/bank_card",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "我的银行卡",
+				// "navigationBarBackgroundColor": "#4388F2",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/change_bank/change_bank",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "更换银行卡",
+				// "navigationBarBackgroundColor": "#4388F2",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "详情",
+				// "navigationBarBackgroundColor": "#4388F2",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/batch/batch",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "完成批次",
+				// "navigationBarBackgroundColor": "#4388F2"
+			}
+		},
+		{
+			"path": "pages/achievement/achievement",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "成果上传",
+				// "navigationBarBackgroundColor": "#4388F2",
+				// "navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/uploadingok/uploadingok",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "成果上传",
+				// "navigationBarBackgroundColor": "#4388F2"
+			}
+		},
+		{
+			"path": "pages/taxadministration/taxadministration",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "详情",
+				// "navigationBarBackgroundColor": "#4388F2"
+			}
+		},
+		{
+			"path": "pages/search_result/search_result",
+			"style": {
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "搜索结果",
+				// "navigationBarBackgroundColor": "#4388F2"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 400
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#28abb9",
+		"backgroundColor": "#f1f1f1",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/static/icons/shouye.png",
+				"selectedIconPath": "/static/static/icons/shouye-copy.png"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"text": "任务",
+				"iconPath": "/static/static/icons/renwu.png",
+				"selectedIconPath": "/static/static/icons/renwu-copy.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "/static/static/icons/wode.png",
+				"selectedIconPath": "/static/static/icons/wode-copy.png"
+			}
+		]
+	}
+}

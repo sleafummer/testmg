@@ -1,0 +1,92 @@
+/* pages/mybill/mybill.wxss */
+.mybill {
+	width: 100%;
+}
+
+.top {
+	height: 250rpx;
+	background-color: #63B8FF;
+	color: white;
+	padding: 35rpx;
+}
+
+.top .account-balance {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.top .balance {
+	padding-top: 30rpx;
+	font-size: 26px;
+}
+
+.top .accumulated-income {
+	padding-top: 40rpx;
+	font-size: 14px;
+}
+
+.top .accumulated-income text {
+	padding-left: 10rpx;
+}
+
+.contre {
+	padding-top: 40rpx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contre .screen {
+	width: 200rpx;
+	text-align: center;
+	font-size: 14px;
+}
+
+.bottom {
+	padding: 34rpx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.screen-balance {
+	display: flex;
+
+}
+
+.screen-balance .icons {
+	padding-right: 15rpx;
+}
+
+.screen-balance .icons .iconfont {
+	color: #1285FA;
+}
+
+.information {
+	font-size: 12px;
+	color: #CDC9C9;
+}
+
+.information-time text {
+	padding-bottom: 10rpx;
+}
+
+.pay-calculation {
+	color: #FE775B;
+}
+
+.paymony {
+	padding: 25rpx 0;
+}
+
+.paymony text {
+	padding-right: 20rpx;
+}
+
+/* 无更多数据 */
+.notdata {
+	padding: 40rpx 0;
+	color: #ccc;
+	text-align: center;
+}
+
+/* 无更多数据结束 */

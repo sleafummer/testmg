@@ -1,0 +1,77 @@
+.login {
+	padding: 30rpx 50rpx;
+}
+
+/* login位置 */
+.picture {
+	width: 100%;
+	text-align: center;
+	padding-top: 50rpx;
+}
+
+.picture .image {
+	width: 150rpx;
+	height: 150rpx;
+	border: 1px solid #ffffff;
+	border-radius: 75rpx;
+}
+.login_code_common{
+	width: 240rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	position: absolute;
+	top: -38rpx;
+	right: 0;
+}
+.neiron {
+	margin-top: 70rpx;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40rpx;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+.left {
+	display: flex;
+}
+
+.kahao {
+	margin-left: 40rpx;
+	font-size: 14px;
+}
+
+.kahao1 {
+	margin-left: 40rpx;
+	font-size: 14px;
+}
+
+.send {
+	color: #007AFF;
+	font-size: 14px;
+	padding-right: 25rpx;
+}
+
+.button {
+	padding-top: 120rpx;
+
+}
+
+.button .text_b {
+	color: #ffffff;
+}
+
+/* 底部协议 */
+.consent {
+	padding: 40rpx 0;
+	font-size: 14px;
+	text-align: center;
+}
+
+.consent .narrate {
+	color: #A39C9C;
+}
+
+.consent .agreement {
+	color: #4388F2;
+}

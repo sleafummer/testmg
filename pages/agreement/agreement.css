@@ -1,0 +1,19 @@
+/* pages/agreement/agreement.wxss */
+.top {
+	padding: 30rpx;
+	text-align: center;
+	font-weight: 600;
+}
+
+.str1 {
+	text-indent: 2rem;
+	text-align: left;
+}
+
+.contre {
+	padding: 10rpx 20rpx;
+}
+
+p {
+	text-indent: 2em
+}

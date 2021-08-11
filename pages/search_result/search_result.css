@@ -1,0 +1,91 @@
+.search_result {
+	padding: 20rpx;
+}
+
+.page_row {
+	display: flex;
+	flex: 1;
+	margin-top: 30rpx;
+
+}
+
+.search {
+
+	/* width: ; */
+	padding: 0 30rpx;
+	flex: 1;
+
+}
+
+.search_w {
+	background-color: #EFECEC;
+	border-radius: 30rpx;
+	/* min-height: 25px; */
+	height: 30px;
+	padding: 0 60rpx;
+}
+
+.sousuo {
+	width: 50px;
+	height: 30px;
+	background-color: #FD6200;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10rpx;
+}
+
+.lists {
+	padding: 0rpx 35rpx 15rpx 35rpx;
+}
+
+.top-company text {
+	font-size: 12px;
+	margin-right: 30rpx;
+	color: rgb(88, 85, 85);
+}
+
+.top-company .iconfont {
+	color: #69B1FC;
+}
+
+.task {
+	padding: 20rpx 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task .price-red {
+	color: #FF9079;
+}
+
+.site {
+	font-size: 12px;
+	color: rgb(88, 85, 85);
+}
+
+.task-narrate {
+	padding: 10rpx 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task-time {
+	font-size: 12px;
+	color: rgb(88, 85, 85);
+	padding-top: 10rpx;
+}
+
+.clearing-form .done {
+	border: 1px solid #69B1FC;
+	padding: 10rpx;
+	border-radius: 8px;
+	font-size: 12px;
+	color: #69B1FC;
+
+}
+
+.transverse-line {
+	border-top: 1px solid #F1F1F1;
+}

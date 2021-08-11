@@ -1,0 +1,27 @@
+/* pages/batch/batch.wxss */
+.accomplish-batch {
+	padding: 50rpx;
+	/* display: flex; */
+	/* justify-content: space-between; */
+	font-size: 12px;
+}
+
+.index {
+	padding: 40rpx 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.accomplish-batch .coding {
+	display: flex;
+}
+
+.aaa {
+	background-color: #007AFF;
+	color: #007AFF;
+}
+
+.coding .number {
+	font-size: 10px;
+	margin-left: 10rpx;
+}

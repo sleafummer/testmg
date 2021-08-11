@@ -1,0 +1,93 @@
+/* pages/mine/mine.wxss */
+.mine {
+	position: relative;
+}
+
+.top {
+	width: 100%;
+	height: 330rpx;
+	background-color: #1D8AFA;
+	text-align: center;
+}
+
+.top .head-portrait {
+	width: 100%;
+	padding-top: 50rpx;
+}
+
+.top .head-portrait .image {
+	width: 150rpx;
+	height: 150rpx;
+	border: 1px solid #ffffff;
+	border-radius: 75rpx;
+}
+
+.top .name {
+	color: #ffffff;
+	padding-top: 45px;
+	font-size: 20px;
+}
+
+.centre {
+	width: 100%;
+	height: 40rpx;
+	border-radius: 40rpx 40rpx 0 0;
+	background-color: #ffffff;
+	position: absolute;
+	margin-top: -40rpx;
+}
+
+.bottom {
+	padding: 20rpx 30rpx;
+}
+
+.bottom .operation {
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 0;
+}
+
+.bottom .operation .operation-change text {
+	padding-right: 20rpx;
+}
+
+.bottom .operation .operation-change .iconfont {
+	color: #1D8AFA;
+	font-size: 18px;
+}
+
+.button {
+	padding-top: 50rpx;
+
+}
+
+.button button {
+	border-radius: 50rpx;
+	border: 1px solid #C6C9CC;
+	color: #C6C9CC;
+}
+
+/* 侧边图片定位 */
+.transverse-fixing {
+	width: 40px;
+	height: 30px;
+	border-radius: 50px 0 0 50px;
+	background: #1D88FA;
+	position: fixed;
+	top: 50%;
+	right: 0;
+}
+
+.diximg {
+	/* display: inline-block; */
+	width: 40px;
+	height: 30px;
+}
+
+.affirm-login {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	top: 20%;
+	justify-content: center;
+}
